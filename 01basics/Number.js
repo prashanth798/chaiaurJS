@@ -12,7 +12,8 @@ console.table([Math.min(3,4,5),
     Math.max(8,88,894,6,4),
     Math.floor(4.9),
     Math.ceil(3.1),
-    Math.random()
+    Math.random(),
+    Math.round(3.6)
 ]);
 
 max = 20;
