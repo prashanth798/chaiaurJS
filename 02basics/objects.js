@@ -44,3 +44,7 @@ console.log(regularUser.hasOwnProperty("domain"));
 console.log(Object.entries(obj3)); // converst whole object into array
 console.log(Object.assign({}, JsUser,regularUser));
 console.log(Object.assign( JsUser, regularUser));
+
+//object destructuring
+const n = {domain: dom} = regularUser.domain;
+console.log(n);
